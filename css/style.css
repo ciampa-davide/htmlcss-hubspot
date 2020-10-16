@@ -5,15 +5,17 @@
 }
 body{
   height: 4000px;
-  background: lightgreen;
   font-size: 26
 }
 h1{
+  font-size: 50px;
+}
+h2{
   font-size: 40px;
-
 }
 
 p{
+  font-size: 18px;
   line-height: 26px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -23,7 +25,7 @@ p{
 }
 
 header{
-  height: 750px;
+  height: 730px;
   /* border: 2px solid brown; */
 }
 
@@ -148,6 +150,32 @@ ul#h-list-center-r li{
   border-bottom: 2px solid #33475B;
 }
 .small-container{
-  width: 30%;
+  width: 45%;
   color: #33475B;
+}
+
+
+.m-top{
+  display: block;
+  position:relative;
+  height: 3000px;
+  background-color: #f4f9fd;
+}
+.m-logo{
+  display: inline-block;
+  position: absolute;
+  top:1%;
+  left:40%;
+  background-image: url("../img/integrations.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 400px;
+  height:250px;
+}
+.m-top-text{
+  width: 45%;
+  margin-left:27%;
+  padding-top: 15%;
+  text-align: center;
+  color:#33475B;
 }
