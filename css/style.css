@@ -161,23 +161,15 @@ ul#h-list-center-r li{
   height: 3000px;
   background-color: #f4f9fd;
 }
-.m-logo{
-  display: inline-block;
-  position: absolute;
-  top:1%;
-  left:40%;
-  background-image: url("../img/integrations.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 400px;
-  height:250px;
-}
 .m-top-text{
   width: 45%;
-  margin-left:27%;
-  padding-top: 15%;
   text-align: center;
   color:#33475B;
+  margin: 0 auto;
+}
+.m-top-text img{
+  max-width: 35%;
+  height: auto;
 }
 .m-top-row{
   width: 1200px;
@@ -185,23 +177,14 @@ ul#h-list-center-r li{
   background: white;
 }
 
-.m-top-logo{
-  position:absolute;
-  width: 150px;
-  height:100px;
-  top:15%;
-  left:20%;
-  background-image: url("../img/crm.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 .m-top-small-container{
-  float:right;
-  width: 75%;
+  float:left;
+  width: 15%;
   height: 100%;
   background-color: orange;
 }
-.m-top-logo > a{
-  margin-top: 100%;
+}
+.
+div.m-small-container > a{
+  margin: 0 auto;
 }
