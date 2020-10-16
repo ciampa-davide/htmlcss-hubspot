@@ -179,3 +179,29 @@ ul#h-list-center-r li{
   text-align: center;
   color:#33475B;
 }
+.m-top-row{
+  width: 1200px;
+  height: 300px;
+  background: white;
+}
+
+.m-top-logo{
+  position:absolute;
+  width: 150px;
+  height:100px;
+  top:15%;
+  left:20%;
+  background-image: url("../img/crm.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.m-top-small-container{
+  float:right;
+  width: 75%;
+  height: 100%;
+  background-color: orange;
+}
+.m-top-logo > a{
+  margin-top: 100%;
+}
