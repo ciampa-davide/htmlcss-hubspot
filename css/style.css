@@ -13,6 +13,12 @@ h1{
 h2{
   font-size: 40px;
 }
+h3{
+  font-size: 25px;
+}
+h4{
+  font-size:20px;
+}
 
 p{
   font-size: 18px;
@@ -39,7 +45,6 @@ header{
   z-index: 2;
   border-bottom:1px solid #33475B;
   }
-
 .container{
   width: 70%;
   height:100%;
@@ -166,25 +171,94 @@ ul#h-list-center-r li{
   text-align: center;
   color:#33475B;
   margin: 0 auto;
+  padding-top:3%;
 }
-.m-top-text img{
+.m-top-text > img{
   max-width: 35%;
+  padding-top: 3%;
   height: auto;
 }
 .m-top-row{
   width: 1200px;
   height: 300px;
   background: white;
+  border-radius: 5px;
 }
 
 .m-top-small-container{
   float:left;
-  width: 15%;
+  width: 35%;
   height: 100%;
-  background-color: orange;
 }
+
+.m-top-small-container > img{
+  max-width: 40%;
+  display: block;
+  margin-top: 10%;
+  margin-left: 25%;
 }
-.
-div.m-small-container > a{
-  margin: 0 auto;
+.m-top-small-container > a{
+  margin-top: 5%;
+  margin-left: 27%;
+}
+
+#text-small-contain{
+  line-height: 20px;
+  padding-top: 25px;
+}
+
+#line{
+  display: inline-block;
+  margin-bottom: 5%;
+}
+
+#text-small-contain > hr{
+  float: right;
+  width: 30%;
+  margin-right: 15%;
+  margin-top: 10px;
+  border: 1px solid #33475B;
+}
+ul#list-row > li
+{
+  display: inline-block;
+  color:#33475B;
+  list-style: none;
+  margin-right: 3%;
+
+}
+li > i{
+  color: #FE775A;
+}
+
+.columns-bottom{
+  float: left;
+  width: 365px;
+  height: 650px;
+  text-align: center;
+  line-height: 20px;
+  background: white;
+  margin-right: 4%;
+  margin-top: 2%;
+  border-radius: 5px;
+  padding: 0 3%;
+}
+.second-column{
+  padding-top:18px;
+}
+.columns-bottom > img{
+  max-width: 35%;
+  padding-top: 3%;
+  height: auto;
+  margin: 0 35%;
+}
+.columns-bottom > hr{
+  margin:15% 0
+}
+.columns-bottom > ul{
+  margin: 20% 0;
+}
+ul.list-columns > li{
+  list-style: none;
+  text-align: left;
 }
