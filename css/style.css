@@ -22,6 +22,10 @@ h4{
   font-size:20px;
   color: #33475B;
 }
+h5{
+  font-size: 20px;
+  padding-bottom: 25px;
+}
 
 p{
   font-size: 18px;
@@ -107,8 +111,13 @@ ul#h-list-top-r li{
 }
 
 .b-white{
-  background-color: #33475B
+  background-color: white;
   color:#FE775A;
+}
+.b-blue{
+  background-color: white;
+  color:#2D3E50;
+  border: 1px solid white;
 }
 
 .h-b-orange{
@@ -370,4 +379,29 @@ ul.imp-logo > li{
 .m-final img{
   float: right;
   max-width: 30%;
+}
+footer{
+  height: 600px;
+  width: 100%;
+  background: #2D3E50;
+  color: white;
+}
+.f-container{
+  width: 70%;
+  margin:0 auto;
+  padding-top: 3%;
+}
+.f-columns{
+  float: left;
+}
+.f-columns ul{
+  list-style: none;
+  line-height: 30px;
+  padding-right: 100px;
+
+}
+
+#last{
+  color: white;
+  border-right:0;
 }
