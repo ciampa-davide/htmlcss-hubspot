@@ -118,6 +118,7 @@ ul#h-list-top-r li{
   background-color: white;
   color:#2D3E50;
   border: 1px solid white;
+  border-radius: 3px;
 }
 
 .h-b-orange{
@@ -388,6 +389,7 @@ footer{
 }
 .f-container{
   width: 70%;
+  height: 80%;
   margin:0 auto;
   padding-top: 3%;
 }
@@ -400,7 +402,18 @@ footer{
   padding-right: 100px;
 
 }
-
+.f-bottom{
+  width: 70%;
+  margin:0 auto;
+}
+.f-bottom ul{
+  list-style: none;
+  text-align: center;
+  color: white;
+}
+.f-bottom li{
+  display: inline-block;
+}
 #last{
   color: white;
   border-right:0;
