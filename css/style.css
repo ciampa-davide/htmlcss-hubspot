@@ -176,8 +176,6 @@ ul#h-list-center-r li{
 
 
 .m-top{
-  display: block;
-  position:relative;
   height: 100%;
   background-color: #f4f9fd;
 }
@@ -253,8 +251,9 @@ li > i{
 .columns-bottom{
   float: left;
   width: 365px;
+  height: 675px;
   text-align: center;
-  line-height: 25px;
+  line-height: 24px;
   background: white;
   margin-right: 53px;
   margin-top: 2%;
@@ -262,13 +261,10 @@ li > i{
   padding: 0 3%;
   padding-bottom: 2%;
 }
-.second-column{
-  padding-top:18px;
-}
 .columns-bottom > img{
   max-width: 30%;
+  max-height: 80px;
   padding-top: 3%;
-  height: 100%;
   margin: 0 35%;
 }
 .columns-bottom > hr{
@@ -417,4 +413,17 @@ footer{
 #last{
   color: white;
   border-right:0;
+}
+.copy{
+  height: 60px;
+  width: 70%;
+  /* background: white; */
+
+  margin:2% auto;
+
+}
+#copyright{
+  padding-top: 0;
+  line-height: 20px;
+  color: white;
 }
